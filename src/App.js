@@ -24,7 +24,7 @@ function App() {
             password: password
         };
 
-        axios.post("http://localhost:8080/api/users", user)
+        axios.post("https://userapp-backend-clean-2.onrender.com/api/users", user)
             .then(() => {
                 alert("User Added Successfully!");
 
@@ -43,7 +43,7 @@ function App() {
 
     // View users
     const handleView = () => {
-        axios.get("http://https://userapp-backend-clean-2.onrender.com/api/users")
+        axios.get("https://userapp-backend-clean-2.onrender.com/api/users")
             .then(res => {
                 setUsers(res.data);
             })
