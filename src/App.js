@@ -26,12 +26,7 @@ function App() {
             password: password
         };
 
-<<<<<<< HEAD
-  axios.post(`${BASE_URL}/api/users`, user)
-
-=======
-        axios.post("https://userapp-backend-clean-2.onrender.com/api/users", user)
->>>>>>> b8cdd820ec6a6c3bd9ce0970391049fe2f487eaa
+        axios.post(`${BASE_URL}/api/users`, user)
             .then(() => {
                 alert("User Added Successfully!");
 
@@ -50,11 +45,7 @@ function App() {
 
     // View users
     const handleView = () => {
-<<<<<<< HEAD
-axios.get(`${BASE_URL}/api/users`)
-=======
-        axios.get("https://userapp-backend-clean-2.onrender.com/api/users")
->>>>>>> b8cdd820ec6a6c3bd9ce0970391049fe2f487eaa
+        axios.get(`${BASE_URL}/api/users`)
             .then(res => {
                 setUsers(res.data);
             })
