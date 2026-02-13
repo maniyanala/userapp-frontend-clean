@@ -2,7 +2,7 @@ import axios from "axios";
 import { useState } from "react";
 import "./App.css";
 
-const BASE_URL = "https://userapp-backend-clean-2.onrender.com";
+const BASE_URL = "https://userapp-backend-clean-bzxm.onrender.com/";
 
 function App() {
 
